@@ -1,6 +1,11 @@
 /* nav */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .nav {
-    font-family: BungeeB;
+/*    font-family: BungeeB; */
     margin: 20px 0;
     position: relative;
     top: 5px;

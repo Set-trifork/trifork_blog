@@ -1,0 +1,10 @@
+---
+title: {{ site.name }} - Blog
+layout: blog
+---
+{% include navmenu.html %}
+{% for page in site.categories.discog offset: 0 limit: 15 %}
+￼
+{% endfor %}
+￼
+{% include footer.html %}
