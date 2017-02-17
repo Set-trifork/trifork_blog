@@ -1,9 +1,5 @@
 /* nav */
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+
 .nav {
 /*    font-family: BungeeB; */
     margin: 20px 0;
@@ -57,6 +53,7 @@ nav {
 NAV MENU RESPONSIVE
 ********************/
 @media screen and (max-width: 600px) {
+
   .nav {
       position: relative;
       min-height: 40px;
